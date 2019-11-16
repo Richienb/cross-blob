@@ -1,7 +1,11 @@
 "use strict"
 
-module.exports = (input, { postfix = "rainbows" } = {}) => {
-    if (typeof input !== "string") throw new TypeError(`Expected a string, got ${typeof input}`)
+const BrowserBlob = require("blob")
+const NodeBlob = require("fetch-blob")
+const { isBrowser, isNode } = require("browser-or-node")
 
-    return `${input} & ${postfix}`
-}
+module.exports = (() => {
+    if (isBrowser) return BrowserBlob
+    if (isNode) return NodeBlob
+    return undefined
+})()

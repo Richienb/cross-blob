@@ -1,8 +1,8 @@
 {
-    "name": "the-module",
+    "name": "cross-blob",
     "version": "0.0.0",
-    "description": "My awesome module.",
-    "repository": "https://github.com/Richienb/the-module.git",
+    "description": "Cross-platform Blob implementation for NodeJS and the Web.",
+    "repository": "https://github.com/Richienb/cross-blob.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
     "main": "index.js",
@@ -11,17 +11,25 @@
         "index.d.ts"
     ],
     "engines": {
-        "node": ">=8"
+        "node": ">=6"
     },
     "scripts": {
         "lint": "xo",
         "test": "yarn lint && ava"
     },
-    "keywords": [],
-    "dependencies": {},
+    "keywords": [
+        "blob",
+        "cross"
+    ],
+    "dependencies": {
+        "blob": "^0.0.5",
+        "browser-or-node": "^1.2.1",
+        "fetch-blob": "^1.0.4"
+    },
     "devDependencies": {
         "ava": "^2.1.0",
         "eslint-config-richienb": "^0.2.2",
+        "is-blob": "^2.0.1",
         "xo": "^0.25.3"
     },
     "resolutions": {

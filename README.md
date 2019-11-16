@@ -1,41 +1,27 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# Cross Blob [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/cross-blob/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/cross-blob)
 
-My awesome module.
+Cross-platform Blob implementation for NodeJS and the Web.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/cross-blob.png)](https://npmjs.com/package/cross-blob)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install cross-blob
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const Blob = require("cross-blob");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+new Blob([]);
+//=> Blob {size: 0, type: ""}
+
+// Global patch (to support external modules like is-blob).
+globalThis.Blob = Blob;
 ```
 
 ## API
 
-### theModule(input, options?)
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+### Blob extends [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
