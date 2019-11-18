@@ -23,7 +23,7 @@
     ],
     "dependencies": {
         "blob": "^0.0.5",
-        "browser-or-node": "^1.2.1",
+        "env-crosser": "^1.0.0",
         "fetch-blob": "^1.0.4"
     },
     "devDependencies": {

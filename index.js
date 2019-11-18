@@ -2,10 +2,10 @@
 
 const BrowserBlob = require("blob")
 const NodeBlob = require("fetch-blob")
-const { isBrowser, isNode } = require("browser-or-node")
+const envCrosser = require("env-crosser")
 
-module.exports = (() => {
-    if (isBrowser) return BrowserBlob
-    if (isNode) return NodeBlob
-    return undefined
-})()
+module.exports = envCrosser({
+    browser: BrowserBlob,
+    worker: BrowserBlob,
+    node: NodeBlob,
+})

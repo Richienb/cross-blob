@@ -1341,6 +1341,13 @@ enhance-visitors@^1.0.0:
   dependencies:
     lodash "^4.13.1"
 
+env-crosser@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/env-crosser/-/env-crosser-1.0.0.tgz#480a0659b7304031f404a05bf5bf605271b0699f"
+  integrity sha512-PCJHbC6xRKH0cL6cuOsPACdPzfsGAfsSGMgZpu1Sh4GjRgBI7UE7CE51nVZmcRVWu3abPg2kQo72vRDV8Uz8Sg==
+  dependencies:
+    browser-or-node "^1.2.1"
+
 env-editor@^0.4.0:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/env-editor/-/env-editor-0.4.1.tgz#77011e08ce45f46e404e8d996b465c684ca57502"
