@@ -1431,9 +1431,9 @@ eslint-config-prettier@^6.3.0:
     get-stdin "^6.0.0"
 
 eslint-config-richienb@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-richienb/-/eslint-config-richienb-0.2.2.tgz#df52a73d2f3b1f3877a8021f357d7ea102fef3e7"
-  integrity sha512-iYlDM9h4vNRipzmCeeVy+kpRC6hIzDQt+4JevZuHtWShWaWtATrZ86IHVFzSNz+0XUySby2OuJqPGHkd7Cnkkg==
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/eslint-config-richienb/-/eslint-config-richienb-0.2.3.tgz#a8029343a9e98460e596f8eb4a5d596f0edb2eff"
+  integrity sha512-A1NhsNSonCfxdZfeJKaEDK5PMr+xcvIb4/e8agmn7M66wDcBgEB56m8iU1E/0eqNwBkwlDhrqBOhiZf00vg9Pg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.6.0"
     "@typescript-eslint/parser" "^2.6.0"
