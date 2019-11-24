@@ -1851,9 +1851,9 @@ fastq@^1.6.0:
     reusify "^1.0.0"
 
 fetch-blob@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/fetch-blob/-/fetch-blob-1.0.4.tgz#23242b3f873d71b7165c0cc1b3d2dbb89584d293"
-  integrity sha512-4Nb07BSJ2OR/fWJ1nI9QqLJI4vSs3jtei1UP4oPWffeKpc+8aWPsWzBH6cpJXqQTqSqYinl7oro1f2hrIpnK3Q==
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/fetch-blob/-/fetch-blob-1.0.5.tgz#5cc86a8740236c38d8073b153c8b51be5f3dc11e"
+  integrity sha512-BIggzO037jmCrZmtgntzCD2ymEaWgw9OMJsfX7FOS1jXGqKW9FEhETJN8QK4KxzIJknRl3RQdyzz34of+NNTMQ==
 
 figures@^3.0.0:
   version "3.1.0"
