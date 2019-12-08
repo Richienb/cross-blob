@@ -1,6 +1,6 @@
 {
     "name": "cross-blob",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Cross-platform Blob implementation for NodeJS and the Web.",
     "repository": "https://github.com/Richienb/cross-blob.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
