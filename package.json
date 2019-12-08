@@ -19,7 +19,10 @@
     },
     "keywords": [
         "blob",
-        "cross"
+        "cross",
+        "platform",
+        "node",
+        "browser"
     ],
     "dependencies": {
         "blob": "^0.0.5",
@@ -27,13 +30,13 @@
         "fetch-blob": "^1.0.4"
     },
     "devDependencies": {
-        "ava": "^2.1.0",
-        "eslint-config-richienb": "^0.2.2",
-        "is-blob": "^2.0.1",
+        "ava": "^2.4.0",
+        "eslint-config-richienb": "^0.2.3",
+        "is-blob": "^2.1.0",
         "xo": "^0.25.3"
     },
     "resolutions": {
-        "eslint": "^6.6.0"
+        "eslint": "^6.7.2"
     },
     "xo": {
         "extends": "richienb/node"
