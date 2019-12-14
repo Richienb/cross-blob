@@ -8,8 +8,8 @@ declare interface CrossBlob extends Blob {
 }
 
 declare const CrossBlob: {
-    prototype: CrossBlob;
-    new(blobParts?: BlobPart[], options?: BlobPropertyBag): CrossBlob;
+    prototype: CrossBlob
+    new(blobParts?: BlobPart[], options?: BlobPropertyBag): CrossBlob
 };
 
 export = CrossBlob;
