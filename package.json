@@ -6,6 +6,7 @@
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
     "main": "index.js",
+    "browser": "browser.js",
     "files": [
         "index.js",
         "index.d.ts"
@@ -25,13 +26,13 @@
         "browser"
     ],
     "dependencies": {
-        "blob": "^0.0.5",
-        "env-crosser": "^1.0.0",
-        "fetch-blob": "^1.0.4"
+        "blob-polyfill": "^4.0.20190430",
+        "fetch-blob": "^1.0.5"
     },
     "devDependencies": {
         "ava": "^2.4.0",
         "eslint-config-richienb": "^0.2.3",
+        "get-stream": "^5.1.0",
         "is-blob": "^2.1.0",
         "xo": "^0.25.3"
     },
@@ -39,6 +40,14 @@
         "eslint": "^6.7.2"
     },
     "xo": {
-        "extends": "richienb/node"
+        "extends": "richienb/node",
+        "overrides": [
+            {
+                "files": "test.js",
+                "rules": {
+                    "node/no-unsupported-features/node-builtins": 0
+                }
+            }
+        ]
     }
 }
