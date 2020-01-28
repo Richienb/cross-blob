@@ -1,6 +1,6 @@
 # Cross Blob [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/cross-blob/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/cross-blob)
 
-Cross-platform Blob implementation for NodeJS and the Web.
+Cross-platform Blob implementation for Node.js and the Web.
 
 [![NPM Badge](https://nodei.co/npm/cross-blob.png)](https://npmjs.com/package/cross-blob)
 

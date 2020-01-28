@@ -30,14 +30,14 @@
         "fetch-blob": "^1.0.5"
     },
     "devDependencies": {
-        "ava": "^2.4.0",
-        "eslint-config-richienb": "^0.2.3",
+        "ava": "^3.1.0",
+        "eslint-config-richienb": "^0.3.0",
         "get-stream": "^5.1.0",
         "is-blob": "^2.1.0",
         "xo": "^0.25.3"
     },
     "resolutions": {
-        "eslint": "^6.7.2"
+        "eslint": "^6.8.0"
     },
     "xo": {
         "extends": "richienb/node",
