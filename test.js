@@ -1,7 +1,7 @@
-const Blob = require(".")
 const test = require("ava")
 const isBlob = require("is-blob")
 const getStream = require("get-stream")
+const Blob = require(".")
 globalThis.Blob = Blob
 
 test("main", (t) => {
