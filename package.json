@@ -9,7 +9,8 @@
     "browser": "browser.js",
     "files": [
         "index.js",
-        "index.d.ts"
+        "index.d.ts",
+        "browser.js"
     ],
     "engines": {
         "node": ">=6"
