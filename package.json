@@ -1,54 +1,60 @@
 {
-    "name": "cross-blob",
-    "version": "1.2.1",
-    "description": "Cross-platform Blob implementation for NodeJS and the Web.",
-    "repository": "https://github.com/Richienb/cross-blob.git",
-    "author": "Richie Bendall <richiebendall@gmail.com>",
-    "license": "MIT",
-    "main": "index.js",
-    "browser": "browser.js",
-    "files": [
-        "index.js",
-        "index.d.ts",
-        "browser.js"
-    ],
-    "engines": {
-        "node": ">=6"
-    },
-    "scripts": {
-        "lint": "xo",
-        "test": "yarn lint && ava"
-    },
-    "keywords": [
-        "blob",
-        "cross",
-        "platform",
-        "node",
-        "browser"
-    ],
-    "dependencies": {
-        "blob-polyfill": "^4.0.20190430",
-        "fetch-blob": "^1.0.5"
-    },
-    "devDependencies": {
-        "ava": "^3.1.0",
-        "eslint-config-richienb": "^0.3.0",
-        "get-stream": "^5.1.0",
-        "is-blob": "^2.1.0",
-        "xo": "^0.25.3"
-    },
-    "resolutions": {
-        "eslint": "^6.8.0"
-    },
-    "xo": {
-        "extends": "richienb/node",
-        "overrides": [
-            {
-                "files": "test.js",
-                "rules": {
-                    "node/no-unsupported-features/node-builtins": 0
-                }
-            }
-        ]
-    }
+	"name": "cross-blob",
+	"version": "1.2.1",
+	"description": "Cross-platform Blob implementation for NodeJS and the Web.",
+	"repository": "https://github.com/Richienb/cross-blob.git",
+	"author": "Richie Bendall <richiebendall@gmail.com>",
+	"license": "MIT",
+	"main": "index.js",
+	"browser": "browser.js",
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"browser.js"
+	],
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"lint": "xo",
+		"test": "yarn lint && ava"
+	},
+	"keywords": [
+		"blob",
+		"cross",
+		"platform",
+		"node",
+		"browser",
+		"util",
+		"ponyfill",
+		"polyfill",
+		"universal",
+		"env",
+		"environment"
+	],
+	"dependencies": {
+		"blob-polyfill": "^4.0.20190430",
+		"fetch-blob": "^1.0.5"
+	},
+	"devDependencies": {
+		"ava": "^3.1.0",
+		"eslint-config-richienb": "^0.3.0",
+		"get-stream": "^5.1.0",
+		"is-blob": "^2.1.0",
+		"xo": "^0.25.3"
+	},
+	"resolutions": {
+		"eslint": "^6.8.0"
+	},
+	"xo": {
+		"extends": "richienb/node",
+		"overrides": [
+			{
+				"files": "test.js",
+				"rules": {
+					"node/no-unsupported-features/node-builtins": 0
+				}
+			}
+		]
+	}
 }
