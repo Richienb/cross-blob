@@ -2,14 +2,14 @@
 
 // /** A file-like object of immutable, raw data. Blobs represent data that isn't necessarily in a JavaScript-native format. The File interface is based on Blob, inheriting blob functionality and expanding it to support files on the user's system. */
 declare interface CrossBlob extends Blob {
-    stream(): ReadableStream
-    text(): Promise<string>
-    arrayBuffer(): Promise<ArrayBuffer>
+	stream(): ReadableStream
+	text(): Promise<string>
+	arrayBuffer(): Promise<ArrayBuffer>
 }
 
 declare const CrossBlob: {
-    prototype: CrossBlob
-    new(blobParts?: BlobPart[], options?: BlobPropertyBag): CrossBlob
+	prototype: CrossBlob
+	new(blobParts?: BlobPart[], options?: BlobPropertyBag): CrossBlob
 };
 
-export = CrossBlob;
+export = CrossBlob
