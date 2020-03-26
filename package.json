@@ -45,7 +45,7 @@
 		"eslint-config-richienb": "^0.3.0",
 		"get-stream": "^5.1.0",
 		"is-blob": "^2.1.0",
-		"xo": "^0.26.1"
+		"xo": "^0.28.1"
 	},
 	"resolutions": {
 		"eslint": "^6.8.0"
