@@ -42,7 +42,7 @@
 	},
 	"devDependencies": {
 		"ava": "^3.5.0",
-		"eslint-config-richienb": "^0.3.0",
+		"eslint-config-richienb": "^0.4.2",
 		"get-stream": "^5.1.0",
 		"is-blob": "^2.1.0",
 		"xo": "^0.26.1"
