@@ -2,33 +2,33 @@ const test = require("ava")
 const isBlob = require("is-blob")
 const getStream = require("get-stream")
 const Blob = require(".")
-globalThis.Blob = Blob
+global.Blob = Blob
 
-test("main", (t) => {
+test("main", t => {
 	t.true(isBlob(new Blob([])))
 })
 
-test("size", (t) => {
+test("size", t => {
 	const data = "a=1"
 	const blob = new Blob([data])
 	t.is(blob.size, data.length)
 })
 
-test("type", (t) => {
+test("type", t => {
 	const data = "a=1"
 	const type = "text/plain"
 	const blob = new Blob([data], { type })
 	t.is(blob.type, type)
 })
 
-test("text()", async (t) => {
+test("text()", async t => {
 	const data = "a=1"
 	const type = "text/plain"
 	const blob = new Blob([data], { type })
 	t.is(await blob.text(), data)
 })
 
-test("arrayBuffer()", async (t) => {
+test("arrayBuffer()", async t => {
 	const data = "a=1"
 	const type = "text/plain"
 	const blob = new Blob([data], { type })
@@ -38,7 +38,7 @@ test("arrayBuffer()", async (t) => {
 	t.is(decoder.decode(buffer), data)
 })
 
-test("stream()", async (t) => {
+test("stream()", async t => {
 	const data = "a=1"
 	const type = "text/plain"
 	const blob = new Blob([data], { type })
@@ -46,14 +46,14 @@ test("stream()", async (t) => {
 	t.is(result, data)
 })
 
-test("toString()", (t) => {
+test("toString()", t => {
 	const data = "a=1"
 	const type = "text/plain"
 	const blob = new Blob([data], { type })
 	t.is(blob.toString(), "[object Blob]")
 })
 
-test("slice()", async (t) => {
+test("slice()", async t => {
 	const data = "a=1"
 	const type = "text/plain"
 	const blob = new Blob([data], { type })
