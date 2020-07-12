@@ -37,18 +37,15 @@
 		"environment"
 	],
 	"dependencies": {
-		"blob-polyfill": "^4.0.20190430",
-		"fetch-blob": "^1.0.6"
+		"blob-polyfill": "^4.0.20200601",
+		"fetch-blob": "1.0.6"
 	},
 	"devDependencies": {
-		"ava": "^3.8.2",
+		"ava": "^3.10.1",
 		"eslint-config-richienb": "^0.4.2",
 		"get-stream": "^5.1.0",
 		"is-blob": "^2.1.0",
-		"xo": "^0.30.0"
-	},
-	"resolutions": {
-		"eslint": "^6.8.0"
+		"xo": "^0.32.1"
 	},
 	"xo": {
 		"extends": "richienb",
