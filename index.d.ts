@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/triple-slash-reference
 /// <reference lib="dom"/>
 
-export = Blob
+export default Blob

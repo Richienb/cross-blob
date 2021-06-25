@@ -1,3 +1,3 @@
-"use strict"
+import { Blob } from "blob-polyfill"
 
-module.exports = require("blob-polyfill").Blob
+export default Blob

@@ -1,3 +1,3 @@
-"use strict"
+import { Blob } from "fetch-blob"
 
-module.exports = require("fetch-blob")
+export default Blob

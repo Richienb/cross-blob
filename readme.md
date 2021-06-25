@@ -13,7 +13,7 @@ npm install cross-blob
 ## Usage
 
 ```js
-const Blob = require("cross-blob");
+import Blob from "cross-blob"
 
 new Blob([]);
 //=> Blob {size: 0, type: ""}
@@ -24,4 +24,4 @@ globalThis.Blob = Blob;
 
 ## API
 
-### Blob extends [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
+### [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob)

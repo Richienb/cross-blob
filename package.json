@@ -5,8 +5,7 @@
 	"repository": "https://github.com/Richienb/cross-blob.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
-	"main": "index.js",
-	"browser": "browser.js",
+	"type": "module",
 	"exports": {
 		"browser": "./browser.js",
 		"default": "./index.js"
@@ -17,11 +16,11 @@
 		"browser.js"
 	],
 	"engines": {
-		"node": "^10.17.0 || >=12.3.0"
+		"node": "^12.20 || >=14.13"
 	},
 	"scripts": {
 		"lint": "xo",
-		"test": "yarn lint && ava"
+		"test": "xo && ava"
 	},
 	"keywords": [
 		"blob",
@@ -38,25 +37,16 @@
 	],
 	"dependencies": {
 		"blob-polyfill": "^5.0.20210201",
-		"fetch-blob": "^2.1.2"
+		"fetch-blob": "^3.0.1"
 	},
 	"devDependencies": {
-		"ava": "^3.10.1",
-		"eslint-config-richienb": "^0.4.2",
-		"get-stream": "^5.1.0",
+		"ava": "^3.15.0",
+		"eslint-config-richienb": "^0.6.2",
+		"get-stream": "^6.0.1",
 		"is-blob": "^2.1.0",
-		"xo": "^0.32.1"
+		"xo": "^0.40.3"
 	},
 	"xo": {
-		"extends": "richienb",
-		"overrides": [
-			{
-				"files": "test.js",
-				"rules": {
-					"node/no-unsupported-features/node-builtins": 0,
-					"node/no-unsupported-features/es-syntax": 0
-				}
-			}
-		]
+		"extends": "richienb"
 	}
 }

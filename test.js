@@ -1,7 +1,7 @@
-const test = require("ava")
-const isBlob = require("is-blob")
-const getStream = require("get-stream")
-const Blob = require(".")
+import test from "ava"
+import isBlob from "is-blob"
+import getStream from "get-stream"
+import Blob from "./index.js"
 global.Blob = Blob
 
 test("main", t => {
