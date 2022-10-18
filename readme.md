@@ -2,6 +2,8 @@
 
 Cross-platform Blob implementation for Node.js and the Web.
 
+> Blob has been [a global since Node.js 18 and is available in modern browsers](https://developer.mozilla.org/en-US/docs/Web/API/Blob#browser_compatibility). Don't use this module if you don't need to.
+
 [![NPM Badge](https://nodei.co/npm/cross-blob.png)](https://npmjs.com/package/cross-blob)
 
 ## Install
