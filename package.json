@@ -36,8 +36,8 @@
 		"environment"
 	],
 	"dependencies": {
-		"blob-polyfill": "^6.0.20211015",
-		"fetch-blob": "^3.1.4"
+		"blob-polyfill": "^7.0.20220408",
+		"fetch-blob": "^3.2.0"
 	},
 	"devDependencies": {
 		"ava": "^3.15.0",
